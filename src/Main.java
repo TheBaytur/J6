@@ -1,4 +1,4 @@
-public class Main {  // Callbacks, lambda
+public class Main {  // Callbacks, lambda ... #26
     public static void main(String[] args) {
         TaskFactory factory = new TaskFactory();
         TaskProgressCallback callback = new CallbackImpl(factory);
