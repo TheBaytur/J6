@@ -1,4 +1,4 @@
-public class Main {
+public class Main {  // Office work
     public static void main(String[] args) {
         TaskFactory factory = new TaskFactory();
         TaskProgressCallback callback = new CallbackImpl(factory);
