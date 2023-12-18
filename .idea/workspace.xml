@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2fc338-7204-4b82-a3f8-23e85ac7402a" name="Changes" comment="J6">
+    <list default="true" id="2a2fc338-7204-4b82-a3f8-23e85ac7402a" name="Changes" comment="Callback, lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CallbackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +86,27 @@
       <option name="project" value="LOCAL" />
       <updated>1702635060507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Callback tasks">
+      <created>1702884997972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702884997972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Callback, lambda">
+      <created>1702885103052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702885103052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="J6" />
-    <option name="LAST_COMMIT_MESSAGE" value="J6" />
+    <MESSAGE value="Callback tasks" />
+    <MESSAGE value="Callback, lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Callback, lambda" />
   </component>
 </project>

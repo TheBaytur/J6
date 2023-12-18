@@ -1,23 +1,24 @@
-public class EmployeeChain {
+public class EmployeeChain implements TaskHandler{
 
-    private final Employee employee;
+    private final TaskHandler first;
+    private final TaskHandler second;
     private EmployeeChain nextEmployeeChain;
 
-    public EmployeeChain(Employee employee) {
-        this.employee = employee;
+    public EmployeeChain(TaskHandler first, TaskHandler second) {
+
+        this.first = first;
+        this.second = second;
     }
 
-    public void doTask(Task task){
-        if (task.getStatus() == employee.getTaskStatus()){
-            employee.doTask(task);
-        } else if (nextEmployeeChain != null){
-            nextEmployeeChain.doTask(task);
-        } else {
-            throw new IllegalArgumentException("task can't be handled");
+
+
+    @Override
+    public boolean doTask(Task task) {
+        boolean result;
+        result = first.doTask(task);
+        if (!result){
+            result = second.doTask(task);
         }
-    }
-
-    public void setNextEmployee(EmployeeChain nextEmployeeChain){
-        this.nextEmployeeChain = nextEmployeeChain;
+        return result;
     }
 }
