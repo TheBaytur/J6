@@ -4,11 +4,12 @@ public class Main {  // Callbacks, lambda
         TaskProgressCallback callback = new CallbackImpl(factory);
 
         EmployeeChain chain = new EmployeeChain(
-                new EmployeeChain(
-                        new Designer(callback,"Kamilla"),
-                        new Programmer(callback, "Olga")
-                ),
-        new Tester(callback, "Aya")
+                new Designer(callback,"Kamilla"),
+                        new EmployeeChain(
+                        new Programmer(callback, "Olga"),
+                                new Tester(callback, "Aya")
+                )
+
         );
 
 
